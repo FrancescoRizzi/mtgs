@@ -1,1 +1,84 @@
+# ============================================================
+# mtgs/_config.yaml:
+#  Jekyll Configuration file for mtgs
+# ============================================================
+# NOTE: 
+# For technical reasons, this file is *NOT* reloaded automatically
+# when you use 'bundle exec jekyll serve'. If you change this file,
+# please restart the server process.
+# ============================================================
+
+# ============================================================
+# GitHub Pages overrides these settings, so we can't change them:
+# See: https://help.github.com/articles/configuring-jekyll/
+# ============================================================
+# lsi: false
+# safe: true
+# source: [your repo's top level directory]
+# incremental: false
+# highlighter: rouge
+# gist:
+#    noscript: false
+# kramdown:
+#    math_engine: mathjax
+# ============================================================
+
+# ============================================================
+# Site settings:
+# use via {{ site.varname }} (eg: site.title, site.email, ...)
+# ============================================================
+title: MTGS
+description: "MTGS"
+email: francesco.rizzi@gmail.com
+twitter_username: FrancescoRizzi
+github_username:  FrancescoRizzi
+# baseurl: "" # the subpath of your site, e.g. /blog
+# url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: https://FrancescoRizzi.github.io/MTGS
+
+# ============================================================
+# The appearance of MTGS is based on the Minimal theme
+# ============================================================
+# Minimal Theme for GitHub Pages:
+#  https://github.com/pages-themes/minimal
+# ============================================================
 theme: jekyll-theme-minimal
+show_downloads: "true"
+# google_analytics: [Your Google Analytics tracking ID]
+
+# ============================================================
+# Build settings
+# ============================================================
+markdown: kramdown
+
+# ============================================================
+# Kramdown settings:
+#  remember that this one is overridden by Github Pages:
+#     math_engine: mathjax
+# ============================================================
+kramdown:
+   input: GFM
+   syntax_highlighter: rouge
+   syntax_highlighter_opts:
+      css_class: 'highlight'
+      span:
+         line_numbers: false
+      block:
+         line_numbers: true
+         start_line: 1
+
+# ============================================================
+# Include:
+# ============================================================
+include: ["_pages"]
+
+# ============================================================
+# Permalinks:
+# ============================================================
+permalink: /:title/
+
+
+
+
+
+

@@ -1,37 +1,28 @@
-## Welcome to GitHub Pages
+---
+title: "MTGS"
+permalink: index.html
+---
 
-You can use the [editor on GitHub](https://github.com/FrancescoRizzi/mtgs/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+# MTGS
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+TODO: Project Description
 
-### Markdown
+# README
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+What you are reading is the *README* file of the [MTGS Project]({{site.github.repository_url}}). This is also used to generate the root (top-level) *index.html* page in the [MTGS Project Site]({{site.url}}), which is the primary documentation for the project (formatted for and presented on the web).
 
-```markdown
-Syntax highlighted code block
+# License and Legalia
 
-# Header 1
-## Header 2
-### Header 3
+* The MTGS Project and Site are published under [a MIT License](license.html).
+* The MTGS Project is hosted on [GitHub](https://github.com/).
+* The MTGS Project Site is hosted through [GitHub Pages](https://pages.github.com/).
+* The MTGS Project Site is built by using [Jekyll](https://jekyllrb.com/);
+   * Jekyll is licensed under [the MIT License](https://github.com/jekyll/jekyll/blob/master/LICENSE): Copyright &copy; 2008-2017 Tom Preston-Werner and Jekyll contributors.
+* The appearance of the MTGS Project Site is based on the [Minimal](https://github.com/pages-themes/minimal) theme for GitHub Pages;
+   * Minimal is licensed under [Creative Commons Zero v1.0 Universal License](https://github.com/pages-themes/minimal/blob/master/LICENSE) ([more on CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)).
+* Any modifications applied to the Minimal theme within the Project and Site are considered part of the MTGS Project itself.
+* The *contents* of the MTGS Project and Site (text, images, media) are produced for and part of the MTGS Project, unless otherwise specified.
 
-- Bulleted
-- List
+# Contributing
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/FrancescoRizzi/mtgs/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+TODO, see also [DevEnv](./devenv.html)

@@ -1,3 +1,8 @@
+---
+title: "MTGS - License"
+permalink: "license.html"
+---
+
 MIT License
 
 Copyright (c) 2017 FR

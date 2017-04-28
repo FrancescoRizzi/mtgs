@@ -1,0 +1,19 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/*
+	MTGS Style
+	Extend/Override basic theme styles
+	================================================== */
+
+/* Nested Lists:
+	================================================== */
+li {
+  > ul,
+  > ol {
+    margin-bottom: 0;
+  }
+}
+
