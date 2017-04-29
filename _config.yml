@@ -36,6 +36,9 @@ github_username:  FrancescoRizzi
 # url: "" # the base hostname & protocol for your site, e.g. http://example.com
 url: https://FrancescoRizzi.github.io/MTGS
 
+# Because Jekyll on Windows does not seem to find the origin from .git/config
+repository: FrancescoRizzi/mtgs
+
 # ============================================================
 # The appearance of MTGS is based on the Minimal theme
 # ============================================================
