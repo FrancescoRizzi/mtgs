@@ -43,6 +43,10 @@ With all parts in place, you should be able to build and serve your local copy o
 
 ```shell
 $> cd <path/to>/your-mtgs-local-repo
+
+$> bundle install
+   [...Fetching and Installing necessary gems...]
+   
 $> bundle exec jekyll serve
    [...]
    Server address: http://127.0.0.1:4000/
